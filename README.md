@@ -5,7 +5,7 @@
 
 HTML5 Essentials
 =====================
-HTML is the programming language that powers the web. With HTML you can create your own Web Pages/Website. This course provides an in-depth look at the essentials: the syntax of HTML and best practices for writing and editing your code. Will learn HTML, Document structure, block and inline-level tags, floating images, controlling white space, phrase and font markup,list, links and tables.
+HTML is the language which powers the web. With HTML you can create your own Web Pages/Website. This course provides an in-depth look at the essentials: the syntax of HTML and best practices for writing and editing your code. Will learn HTML, Document structure, block and inline-level tags, floating images, controlling white space, phrase and font markup,list, links and tables.
 
 ### Prerequisites for current course / What you need to know
 There are no prerequisites as such for current course/lessons. Its an added advantage if you know basic concepts like Web, Internet, Web Page, url, images etc. Its advisable to view [Web Design Development Foundations-Web Technology Fundamentals](https://github.com/dinanathsj29/web-design-development-fundamentals) before dive deeper with HTML5 content.

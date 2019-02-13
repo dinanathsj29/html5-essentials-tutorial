@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>05.01.semantics-new.html</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script> -->
+  <style>
+    .container,.header,.nav,.middle,.left,.right,.footer {
+      border:1px solid blue;
+      padding: 20px;
+    }
+
+    .middle {
+      height:70px;
+    }
+
+    .left {
+      float:left;
+    }
+
+    .right {
+      float:right;
+    }
+
+    .footer {
+      clear: both;
+    }
+    
+  </style>
+
+</head>
+
+<body>
+  <h1>Semantic Old methodology: with div class</h1>
+
+   <!-- use div with class and id to create a basic layout -->
+  <div class="container" id="container">
+    container
+    <div class="header" id="header">header</div>
+
+    <div class="nav" id="nav">navigation </div>
+
+    <div class="middle" id="middle">
+      middle <br/>
+      <div class="left" id="left">left</div>
+      <div class="right" id="right">right</div>
+    </div>
+
+    <div class="footer" id="footer">footer</div>
+
+  </div>
+
+  <br/> 
+  
+  <h1>Semantic Tags: </h1>
+
+   <!-- use html5 semantic tags to create a basic layout -->
+  <main class="container" id="container">
+    container
+    <header class="header" id="header">header</header>
+
+    <nav class="nav" id="nav">navigation </nav>
+
+    <section class="middle" id="middle">
+      middle <br/>
+      <aside class="left" id="left">left</aside>
+      <aside class="right" id="right">right</aside>
+    </section>
+
+    <footer class="footer" id="footer">footer</footer>
+
+  </main>
+
+</body>
+
+</html>

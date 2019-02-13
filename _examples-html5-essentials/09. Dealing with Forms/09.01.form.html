@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>09.01.form</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script> -->
+
+  </head>
+
+  <body>
+    
+    <center>
+      <!-- create a form with different input types -->
+      <form name="enrollmentForm" action="#" method="post">
+
+        <table border="1" width="800" cellspacing="5" cellpadding="5">
+
+          <th colspan="2"><h1>Enrollment Form </h1></th>
+
+          <tr>
+            <td>First Name:</td>
+            <td><Input type="text" name="firstNameText" id="firstNameText1" /> </td>
+          </tr>
+
+          <tr>
+            <td>Last Name:</td>
+            <td><Input type="text" name="lastNameText" id="lastNameText1" /></td>
+          </tr>
+
+          <tr>
+            <td>Password:</td>
+            <td><Input type="password" name="password" id="password1" /></td>
+          </tr>
+
+          <tr>
+            <td>Gender:</td>
+            <td>
+              <input type="radio" name="gender" id="male" value="male" /> Male 
+              <input type="radio" name="gender" id="female" value="female" /> Female 
+              <input type="radio" name="gender" id="other" value="other" /> Other
+            </td>
+          </tr>
+
+          <tr>
+            <td>Hobby:</td>
+            <td>
+              <input type="checkbox" name="reading" id="reading" value="reading" /> Reading 
+              <input type="checkbox" name="music" id="music" value="music" /> Music 
+              <input type="checkbox" name="dance" id="dance" value="dance" /> Dance 
+              <input type="checkbox" name="sports" id="sports" value="sports" /> Sports 
+            </td>
+          </tr>
+
+          <tr>
+            <td>Country:</td>
+            <td>
+              <select name="country" id="country">
+                <option value="india">India</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="nz">NZ</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Comments:</td>
+            <td>
+              <textarea cols="40" rows="5">Enter Comments</textarea>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2">
+              <center>
+                <input type="submit" name="submit" value="Submit">
+                <input type="reset" name="reset" value="Reset" />
+              </center>
+            </td>
+            
+          </tr>
+
+        </table> 
+
+      </form>
+    </center>
+      
+  </body>
+
+</html>

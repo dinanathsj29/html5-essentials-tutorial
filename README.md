@@ -887,4 +887,4 @@ There are different ways to create multicolumn layouts. Each way/layout techniqu
 
 Section 11. Whats Next Step?
 =====================
-Best of Luck! Content Creation is in progress, will update/upload soon.
+Best of Luck! Content Creation of CSS3 for beginners is in progress, will update/upload soon. Happy Learning!

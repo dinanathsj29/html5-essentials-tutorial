@@ -29,7 +29,7 @@ Topics include
 Section 1. Course Introduction
 =====================
 ### 1.1. Welcome
-Hi All, I'm `Dinanath Jayaswal, Senior UI/Web Developer and Adobe Certified Expert Professional`, I wanna welcome you to HTML5 Essentials. In this course will take an in-depth look on HTML, will learn Syntax and Semantics of HTML. Will also focus on best practices to implement while writing and editing HTML. Will start by learning what is HTML, Basic HTML Document/Page structure, How to write and format page content, Creating Lists, Links, Tables and many more things.
+Hi All, I'm **`Dinanath Jayaswal, Senior UI/Web Developer and Adobe Certified Expert Professional`**, I wanna welcome you to HTML5 Essentials. In this course will take an in-depth look on HTML, will learn Syntax and Semantics of HTML. Will also focus on best practices to implement while writing and editing HTML. Will start by learning what is HTML, Basic HTML Document/Page structure, How to write and format page content, Creating Lists, Links, Tables and many more things.
 
 Section 2. Introducing HTML
 =====================
@@ -885,6 +885,6 @@ There are different ways to create multicolumn layouts. Each way/layout techniqu
 - The `<table>` element was not designed to be a layout tool! Before introduction to Div tag, web designers/developers use to follow table based layout
 > **Note**: Do not use tables for your page layout! They will make code length, tedious and brings a mess into your code
 
-Section 11. Whats Next Step?
+Section 11. What's Next Step?
 =====================
-Best of Luck! Content Creation of CSS3 for beginners is in progress, will update/upload soon. Happy Learning!
+Brilliant job! You have done it! Thank You for looking into HTML5 Essentials/Fundamentals. I hope now you have better understandings of how HTML5 works. To learn more about HTML5 specifications visit [Latest HTML5 specifications](https://www.w3.org/TR/html53/) and https://html.spec.whatwg.org/. Your next step could be Mastering HTML5 Advanced features or look into [designing & styling with CSS3 fundamentals](https://github.com/dinanathsj29/css3-fundamentals). Best of Luck! Happy Learning! 

@@ -1,6 +1,5 @@
 <p align="center">
-    <img src="_examples-html5-essentials/assets/images/html5.png" alt="HTML5 Essentials logo" title="HTML5 Essentials" 
-		width="200" />
+    <img src="_examples-html5-essentials/assets/images/html5.png" alt="HTML5 Essentials logo" title="HTML5 Essentials" width="200" />
 </p>
 
 HTML5 Essentials
@@ -84,6 +83,13 @@ Section 2. Introducing HTML
 	- An HTML file (.html / .htm) is a text file itself consists of HTML tags/elements, so to create/modify an HTML file we can use any text editors.
 2. **Browsers To view output of .html pages** - `Google Chrome, Mozilla Firefox, Internet Explorer, Safari` etc.
 	- Once the .html/.htm file created and saved, we can see its output in any latest web browser.
+	
+<p align="center">
+  <figure>
+    &nbsp;&nbsp;&nbsp; <img src="_examples-html5-essentials/assets/images/browers_all_2.png" alt="all browers" title="widely used browsers" width="400" border="2" />
+    <figcaption>&nbsp;&nbsp;&nbsp; Image - Widely used modern browsers</figcaption>
+  </figure>
+</p>
 
 ### 2.5. Basic HTML Document
 > **Syntax**:

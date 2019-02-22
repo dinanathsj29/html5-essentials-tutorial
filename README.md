@@ -84,9 +84,9 @@ Section 2. Introducing HTML
 2. **Browsers To view output of .html pages** - `Google Chrome, Mozilla Firefox, Internet Explorer, Safari` etc.
 	- Once the .html/.htm file created and saved, we can see its output in any latest web browser.
 	
-<p align="center">
+<p>
   <figure>
-    &nbsp;&nbsp;&nbsp; <img src="_examples-html5-essentials/assets/images/browers_all_2.png" alt="all browers" title="widely used browsers" width="400" border="2" />
+    &nbsp;&nbsp;&nbsp; <img src="./_examples-html5-essentials/assets/images/browers_all_2.png" alt="all browsers" title="widely used browsers" width="400" border="2" />
     <figcaption>&nbsp;&nbsp;&nbsp; Image - Widely used modern browsers</figcaption>
   </figure>
 </p>

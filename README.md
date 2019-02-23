@@ -117,7 +117,7 @@ Section 2. Introducing HTML
 An HTML document consist of its basic building blocks:
 
 | Name / Item     | Description                             |
-| ----------------|:---------------------------------------:|
+| ----------------|--------------------------------------|
 | Tags            | An HTML tag surrounds the content and apply meaning to it. It is written between `< and > brackets.`    |
 | Attribute       | An attribute in HTML provides extra information about the element, and it is applied within the start tag. An HTML attribute contains two fields: `name & value / key & value`  |
 | Elements        | An HTML element is an individual component of an HTML file. In an HTML file, everything `written within tags` is termed as HTML elements |
@@ -211,7 +211,7 @@ The Web is changing very fast and so HTML
 #### History of HTML
 
 | Year          | History       |
-| ------------- |:-------------:|
+| ------------- |------------|
 | 1990          | Specification Drafted in Mid 90s by Tim Berners Lee 													|
 | 1991          | Tim Berners Lee published document called "HTML Tags" 												|
 | 1995          | HTML 2.0 ('standard' HTML) 																										|
@@ -389,7 +389,7 @@ Let's have a look and observe an HTML source code in the browser:
 - **Different Doctype Declarations:**
 
 | HTML Version    | DTD           |
-| -------------   |:-------------:|
+| -------------   |------------|
 | HTML5           |  Document Type Declaration (`<!DOCTYPE html>`) |
 | XHTML           |  Document Type Definition (.DTD file) `<!DOC TYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">` | 
 | HTML4           |  Document Type Definition (.DTD file) `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">` |
@@ -468,7 +468,7 @@ Section 4. Formatting Page Content
 - Formatting elements were designed to display special types of text without using CSS
 
 | Tag             | Use                                         |
-| -------------   |:-------------------------------------------:|
+| -------------   |------------------------------------------|
 | `<strong>`        | Bold Important text                         |
 | `<b>`             | Bold text                                   |
 | `<em>`            | Emphasized text                             |
@@ -513,7 +513,7 @@ Section 4. Formatting Page Content
 > **Note**: Browsers may not support all entity names
 
 | String/Character    | Description / Note                      | Entity Name   | Entity Number   |
-| ------------------- |:---------------------------------------:|:-------------:|:---------------:|
+| ------------------- |--------------------------------------|------------:|--------------:|
 | &                   | and OR ampersign OR ampersand           | `&amp;`					| `&#38;`        		|
 |                     | non-breaking space                      | `&nbsp;`        | `&#160;`       		|
 | <                   | less than																| `&lt;`          | `&#60;`						|
@@ -570,7 +570,7 @@ h1 to h6
 #### HTML5 Semantic Structural/Sectioning Elements
 
 | Tag             | Use                                                 |
-| --------------- |:---------------------------------------------------:|
+| --------------- |--------------------------------------------------|
 | `<main>`          | Specifies the main content of a document            |
 | `<header>`        | Specifies a header for a document or section        |
 | `<nav>`           | Defines navigation links                            |
@@ -622,7 +622,7 @@ Section 6. Creating Lists
 #### HTML offers three types/ways for specifying lists of information. All lists must contain one or more list elements
 
 | Tag             | Meaning / Use / Description                                                                                         |
-| --------------- |:-------------------------------------------------------------------------------------------------------------------:|
+| --------------- |-----------------------------------------------------------------------------------------------------------------:|
 | `<ul>`            | An Unordered List or Bulleted List. List items using plain bullets                                                  |
 | `<ol>`           	| An Ordered List or Numbered List. Uses different schemes of numbers to list your items                              |
 | `<dl>`            | A Description List or Definition List. This arranges your items in the same way as they are arranged in a dictionary, header item and description    |
@@ -630,7 +630,7 @@ Section 6. Creating Lists
 #### HTML List Tags
 
 | Tag             | Meaning / Use / Description                         |
-| --------------- |:---------------------------------------------------:|
+| --------------- |--------------------------------------------------|
 | `<ul>`            | Defines an Unordered List or Bulleted List          |
 | `<ol>`            | Ordered List or Numbered List                       |
 | `<li>`            | Defines List Item                                   |
@@ -717,7 +717,7 @@ Section 8. Working with Table
 #### HTML Table Tags
 
 | Tag             | Meaning / Use / Description                         |
-| --------------- |:---------------------------------------------------:|
+| --------------- |--------------------------------------------------|
 | `<table>`         | Defines a table                                     |
 | `<tr>`            | Defines a table row                                 |
 | `<td>`            | Defines a table cell                                |

@@ -38,8 +38,8 @@ Section 2. Introducing HTML
 2. **CSS (Cascading Style Sheet)** - Style Sheet language, Page Design / Presentation / Layouts / Styling / Formattings, look and feel, Creative part of Web Pages
 3. **JavaScript (JS)** - Scripting language, Dynamic Page Behaviour, Logics, Conditions and Validations, Events, Interactivity with User, Dynamic updates in a Web Page
 
-> **Example**:
-```
+> **Syntax & Example**:
+```html
 <html>
 
   <head>
@@ -92,8 +92,8 @@ Section 2. Introducing HTML
 </p>
 
 ### 2.5. Basic HTML Document
-> **Syntax**:
-```
+> **Syntax & Example**:
+```html
 <!DOCTYPE html>
 
 <html>
@@ -122,13 +122,13 @@ An HTML document consist of its basic building blocks:
 | Attribute       | An attribute in HTML provides extra information about the element, and it is applied within the start tag. An HTML attribute contains two fields: `name & value / key & value`  |
 | Elements        | An HTML element is an individual component of an HTML file. In an HTML file, everything `written within tags` is termed as HTML elements |
 
-> **Syntax**:
-```
+> **Syntax & Example**:
+```html
 <tag attribute="attribute value"> content: whole together is an element </tag >   
 ```
 
-> **Example**:
-```
+> **Syntax & Example**:
+```html
 <h1 align="right">Heading 1 aligned to right </h1>
 ```
 
@@ -140,13 +140,13 @@ An HTML document consist of its basic building blocks:
 - When a web browser reads an HTML document, browser reads it from top to bottom and left to right
 - HTML tags are used to create HTML documents and render their properties
 
-> **Syntax**:
-```
+> **Syntax & Example**:
+```html
 <tag> content </tag >  
 ```
 
-> **Example**:
-```
+> **Syntax & Example**:
+```html
 <h1>HTML Tags: Various tags used to develope web page.</h1>
 <h3>Heading: Welcome Welcome to HTML</h3>
 <p>Paragraph: This is my first HTML page</p>
@@ -163,13 +163,13 @@ An HTML document consist of its basic building blocks:
 - All attributes are made up of two parts − a name and a value, Attributes usually come in name/value pairs like: name="value"
 - Attribute names and attribute values are case-insensitive
 
-> **Syntax**:
-```
+> **Syntax & Example**:
+```html
 <tag attribute="attribute value"> content </tag >   
 ```
 
-> **Example**:
-```
+> **Syntax & Example**:
+```html
 <h1 class="headings" id="heading1"> Heading 1 </h1 >  
 <p align="right"> Paragraphic text </p>
 <hr size="20" width="500"/> Horizontal Rules 
@@ -183,13 +183,13 @@ An HTML document consist of its basic building blocks:
 - Elements are responsible for creating web pages and define content in that webpage
 - An element in HTML usually consist of a `start tag <tagName>, close tag </tagName>` and content inserted between them 
 
-> **Syntax**:
-```
+> **Syntax & Example**:
+```html
 <tag attribute="attribute value"> content: whole together is an element </tag >
 ```
 
-> **Example**:
-```
+> **Syntax & Example**:
+```html
 <h1 align="right">Heading 1 aligned to right </h1>
 ```
 
@@ -296,8 +296,9 @@ There are some changes in XHTML as compared to HTML. These changes can be catego
 3. Changes in XHTML Attributes
 	- All XHTML attributes must be **quoted and added properly**
 
-### 2a.3. XHTML Syntax & Example:
-```
+### 2a.3. XHTML 
+> **Syntax & Example**:
+```html
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
@@ -345,8 +346,9 @@ There are many features related to DTD, Tags, Elements, attributes, APIs introdu
 - HTML Drag and Drop
 - HTML Web Workers
 
-### 2b.3. HTML5 Syntax & Example:
-```
+### 2b.3. HTML5
+> **Syntax & Example**:
+```html
 <!DOCTYPE html>
 	<html>
 		<head>
@@ -397,7 +399,8 @@ Let's have a look and observe an HTML source code in the browser:
 ### 3.3. Head
 - `<HEAD>` section of document contains functional information which is not visible on document.
 - The `<head>` element contains meta information about the document
-```
+> **Syntax & Example**:
+```html
 <head>
 
 	<meta charset="UTF-8">
@@ -409,9 +412,11 @@ Let's have a look and observe an HTML source code in the browser:
 
 </head>
 ```
+
 ### 3.4. Body
 `<BODY>` section/element contains all contents visible in browser window/ on web page.
-```
+> **Syntax & Example**:
+```html
 <body>
   <h1>Basic HTML Page Structure</h1>
 
@@ -622,7 +627,7 @@ Section 6. Creating Lists
 #### HTML offers three types/ways for specifying lists of information. All lists must contain one or more list elements
 
 | Tag             | Meaning / Use / Description                                                                                         |
-| --------------- |-----------------------------------------------------------------------------------------------------------------:|
+| --------------- |-----------------------------------------------------------------------------------------------------------------|
 | `<ul>`            | An Unordered List or Bulleted List. List items using plain bullets                                                  |
 | `<ol>`           	| An Ordered List or Numbered List. Uses different schemes of numbers to list your items                              |
 | `<dl>`            | A Description List or Definition List. This arranges your items in the same way as they are arranged in a dictionary, header item and description    |
@@ -659,7 +664,7 @@ Section 7. Creating Links
 - A webpage can contain various links/hyperlinks that take you directly to other pages and even specific parts of a given page
 - Hyperlinks allow visitors to navigate between Web sites by clicking on words, phrases, and images.
 
-### 7.1. Anchor <a> 
+### 7.1. Anchor `<a>` 
 - A link is specified using HTML tag `<a>`, also is called `anchor tag`
 - The HTML `<a>` (anchor element) creates a hyperlink to other web pages, files, locations within the same page, email addresses, or any other URL.
 - The `href` attribute is the most important attribute which specifies links to destination page or URL `href="url path"`
@@ -667,20 +672,20 @@ Section 7. Creating Links
 - `title` attribute makes the anchor links more accessible, semantic, meanigful, `title="Click to visit"`
 - `rel` attribute describes relationship of current linked object and target object, `rel="next/downnload/help/author"`
 
-> **Syntax**:
-```
+> **Syntax & Example**:
+```html
 <a href="url-path" title="accessible" target="_blank" rel="next/prev/help/download">Content</a>
 ```
 
-> **Example**:
-```
+> **Syntax & Example**:
+```html
 <a href="http://www.google.com" title="Click to visit Google">Visit Google.com</a>
 ```
 
 ### 7.2 internal external links
 
-> **Example**:
-```
+> **Syntax & Example**:
+```html
 <a href="./07.01.link.anchor.html"title="visit links" >Links example 1</a> <br/> <br/>
 
 <a href="../08. Working with Table/08.01.table.basic.html"title="Click to visit Table" >Table example 1</a> <br/>
@@ -689,8 +694,8 @@ Section 7. Creating Links
 ### 7.3 download links
 - Ability to download some file or resource
 
-> **Example**:
-```
+> **Syntax & Example**:
+```html
 <a href="help.pdf" title="download help pdf" download>Download Help PDF</a>
 
 replace the name of file while downloading
@@ -727,7 +732,8 @@ Section 8. Working with Table
 | `<tfoot>`         | Group the footer content in a table                 |
 
 ### 8.1. Creating Basic Table
-```
+> **Syntax & Example**:
+```html
 <table>
 
 	<tr>
@@ -779,7 +785,8 @@ Section 9. Dealing with Forms
 - The `<input>` element is fundamental form element which creates different form components with `type` attribute 
 
 ### 9.1. Creating Basic Form
-```
+> **Syntax & Example**:
+```html
 <form name="enrollmentForm" action="#" method="post">
 
 	<table border="1" width="800" cellspacing="5" cellpadding="5">

@@ -38,10 +38,17 @@ Section 2. Introducing HTML
 
 ### 2.1. Importance
 
-#### 3 pillars / core Languages/technologies used for Frond End Web Design/Development
-1. **`HTML (HyperText Markup Language) - Markup language, essential page structure/content, readable and convey structure to the user, text layout model, page mark-up, text, gags, data, details for pages, images, tables, anchor links, forms`**
-2. **CSS (Cascading Style Sheet)** - Style sheet language, web page design / presentation / layouts / styling / formattings, look and feel, creative part of web pages
-3. **JavaScript (JS)** - Scripting language, dynamic page behavior, logics, conditions, validations, events, interactivity with the user, dynamic updates in a web page
+### 3 pillars / core Languages/Technologies used for Front End Web Design/Development:
+
+1. **`HTML (HyperText Markup Language) - Markup language, essential page structure/content, readable and convey structure to the user, text layout model, page mark-up, text, tags, data, details for pages, images, tables, anchor links, forms`**
+    - HTML is an acronym that stands for `HyperText Markup Language` which is used for creating `web pages and web applications
+    - HTML is not a programming language; it is a markup language that defines the structure of your content ie. document
+
+2. **CSS (Cascading Style Sheet)** - Style Sheet language, page design / presentation / layouts / styling / formattings, look and feel, creative part of web pages
+    - CSS is a stylesheet language that allows you to control the appearance (look and feel) of your webpages
+
+3. **JavaScript (JS)** - Scripting language, dynamic page behavior, logics, conditions and validations, events (mouse click, hover), interactivity with the user/events, dynamic updates in a web page
+    - JavaScript is a `scripting language of the web that allows you to do interactivity with the user, implement conditions and validations, dynamic updates in a web page, etc.
 
 > **Syntax & Example**:
 ```html
